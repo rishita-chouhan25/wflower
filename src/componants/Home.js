@@ -47,7 +47,7 @@ const Home = () => {
         
                     {/* <div classNameName='col-1'></div> */}
                     
-                    <section className="section_container booking__container">
+                    <section className="booking__container">
                         <div className="booking__form">
                             <div className="input__group input__btn">
                                 <a href="https://wa.link/at5ion">
