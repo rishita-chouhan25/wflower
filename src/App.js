@@ -1,23 +1,29 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./componants/Home";
-import About from "./componants/About";
-import Rooms from "./componants/Rooms";
-import Services from "./componants/Services";
-import Gallery from "./componants/Gallery";
-import Contact from "./componants/Contact";
+import './App.css';
+import Home from './componants/Home';
+import About from './componants/About';
+import Service from './componants/Service';
+import Room from './componants/Room';
+import Gallery from './componants/Gallery';
+import Contact from './componants/Contact';
+import BackToTopButton from './componants/BacktoTop';
+import Footer from './componants/Footer';
+import Banner from './componants/Banner';
+import Map from './componants/Map';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route exact path="/" element={<Home/>}/>
-        <Route  path="/about" element={<About/>}/>
-        <Route  path="/services" element={<Services/>}/>
-        <Route  path="/rooms" element={<Rooms/>}/>
-        <Route  path="/gallery" element={<Gallery/>}/>
-        <Route  path="/contact" element={<Contact/>}/>
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <Home/>
+      <About />
+            <Room />
+            <Service />
+            <Banner/>
+            <Gallery />
+            <Contact />
+            <Map/>
+            <Footer/>
+            <BackToTopButton/>
+    </div>
   );
 }
 

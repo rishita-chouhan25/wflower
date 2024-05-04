@@ -1,18 +1,17 @@
 import React from 'react';
-import "./styles/contact.css";
-import Location from "../images/location.png";
-import Mail from "../images/mail.png"
-import Call from "../images/call.png";
-import Facebook from "../images/contactFacebook.png";
-import Insta from "../images/contactInsta.png";
-import Twitter from "../images/contactTwitter.png"
-import Linkdln from "../images/contactLinkdln.png"
-
+import Location from "./images/location.png";
+import Mail from "./images/mail.png"
+import Call from "./images/call.png";
+import Facebook from "./images/contactFacebook.png";
+import Insta from "./images/contactInsta.png";
+import Twitter from "./images/contactTwitter.png"
+import Linkdln from "./images/contactLinkdln.png";
+import "./styles/contact.css"
 
 const Contact = () => {
   return (
     <div>
-      <section id="contact" className="section1">
+        <section id="contact" className="section1">
       <div className="container1">
           <div className="contactInfo1"> 
               <div>

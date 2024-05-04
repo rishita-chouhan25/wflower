@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import "./styles/style.css"
 
 const BackToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,22 +30,10 @@ const BackToTopButton = () => {
   return (
     <>
       {isVisible && (
-        <button
-          style={{
-            position: 'fixed',
-            bottom: '20px',
-            right: '20px',
-            padding: '10px 15px',
-            backgroundColor: '#333',
-            color: '#fff',
-            border: 'none',
-            borderRadius: '5px',
-            cursor: 'pointer',
-            zIndex: '999',
-          }}
+        <button className='back-to-top-btn'
           onClick={scrollToTop}
         >
-          <i class="fa-solid fa-arrow-up"></i>
+          <i class="ri-arrow-up-line"></i>
         </button>
       )}
     </>

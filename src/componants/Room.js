@@ -1,20 +1,23 @@
 import React from 'react';
-import Img1 from "../images/small.jpg"
-import Img2 from "../images/large.jpg"
-import "./styles/rooms.css";
+import Large from "./images/large.jpg"
+import Small from "./images/small.jpg";
+import { motion } from "framer-motion";
+import { fadeIn} from "../variants"
 
-
-const Rooms = () => {
-  
+const Room = () => {
   return (
     <div>
-      <section className="section__container room__container" id="rooms">
+        <section className="section__container room__container" id="rooms">
       <p className="section__subheader">OUR LIVING ROOM</p>
       <h2 className="section__header">The Most Memorable Rest Time Starts Here.</h2>
       <div className="room__grid">
-        <div className="room__card" data-sr-id="10" >
+        <motion.div variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true}} 
+          className="room__card">
           <div className="room__card__image">
-            <img src={Img1} alt="room"/>
+            <img src={Small} alt="room"/>
             <div className="room__card__icons">
               <span><i className="ri-heart-fill"></i></span>
               <span><i className="ri-paint-fill"></i></span>
@@ -31,10 +34,15 @@ const Rooms = () => {
               <button className="btn">BOOK NOW</button>
             </a>
           </div>
-        </div>
-        <div className="room__card" data-sr-id="11">
+        </motion.div>
+        <motion.div 
+        variants={fadeIn("up", 0.5)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true}}
+         className="room__card" data-sr-id="11">
           <div className="room__card__image">
-            <img src={Img2} alt="room"/>
+            <img src={Large} alt="room"/>
             <div className="room__card__icons">
               <span><i className="ri-heart-fill"></i></span>
               <span><i className="ri-paint-fill"></i></span>
@@ -51,11 +59,11 @@ const Rooms = () => {
               <button className="btn">BOOK NOW</button>
             </a>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
     </div>
   )
 }
 
-export default Rooms
+export default Room
