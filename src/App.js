@@ -13,16 +13,16 @@ import Map from './componants/Map';
 function App() {
   return (
     <div>
-      <Home/>
+      <Home />
       <About />
-            <Room />
-            <Service />
-            <Banner/>
-            <Gallery />
-            <Contact />
-            <Map/>
-            <Footer/>
-            <BackToTopButton/>
+      <Room />
+      <Service />
+      <Banner />
+      <Gallery />
+      <Contact />
+      <Map />
+      <Footer />
+      <BackToTopButton />
     </div>
   );
 }
