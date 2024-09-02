@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #e82574;
-  --primary-color-dark: #bc1c5c;
+  --primary-color: #9e5170;
+  --primary-color-dark: #cf0e5c;
   --text-dark: #0c0a09;
   --text-light: #78716c;
   --white: #ffffff;
@@ -93,8 +93,9 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* img///////////////////////////////////// */
 .header {
-  background-image: url("../images/ayodhya.webp");
+  background-image: url("../images/oldskool-photography-152258-unsplash.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -237,7 +238,8 @@ nav {
 }
 
 .about__image img {
-  max-width: 450px;
+  max-width: 550px;
+  height: 400px;
   margin: auto;
   border-radius: 5px;
 }
@@ -290,6 +292,10 @@ nav {
   color: #c084fc;
 }
 
+.ri-heart-fill:hover{
+  color: #f6116c;
+}
+
 .room__card__icons span:nth-child(3) {
   color: #60a5fa;
 }
@@ -323,7 +329,7 @@ nav {
 }
 
 .service {
-  background-image: url("../images/palash.webp");
+  background-image: url("../images/mountain-range.avif");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

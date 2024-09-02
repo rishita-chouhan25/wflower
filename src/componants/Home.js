@@ -19,7 +19,7 @@ const Home = () => {
                         <div className="logo">
                             <a href="https://wa.link/at5ion">
                                 <span style={{ color: 'aliceblue' }}>
-                                    Kingsukh <br /> Guest House
+                                    WhiteFlower <br /> Guest House
                                 </span>
                             </a>
                         </div>

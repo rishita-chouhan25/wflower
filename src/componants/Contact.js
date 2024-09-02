@@ -19,9 +19,9 @@ const Contact = () => {
                   <ul className="info">
                       <li>
                           <span><img src={Location}/></span>
-                          <span>Beside Barshal Water Tank,<br/>
-                            Manpur, Barhanti,<br/>
-                            West Bengal 723156</span>
+                          <span>Temple, near, Ghorakhal Road, <br/>
+                          Bhowali, Ghorakhal,<br/>
+                          Uttarakhand 263132</span>
                           
                       </li>
                       <li>

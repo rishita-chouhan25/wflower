@@ -1,6 +1,6 @@
 import React from 'react';
-import Large from "./images/large.jpg"
-import Small from "./images/small.jpg";
+import room1 from "./images/room11.avif"
+import room2 from "./images/room12.avif";
 import { motion } from "framer-motion";
 import { fadeIn} from "../variants"
 
@@ -17,7 +17,7 @@ const Room = () => {
           viewport={{ once: true}} 
           className="room__card">
           <div className="room__card__image">
-            <img src={Small} alt="room"/>
+            <img src={room2} alt="room"/>
             <div className="room__card__icons">
               <span><i className="ri-heart-fill"></i></span>
               <span><i className="ri-paint-fill"></i></span>
@@ -29,7 +29,7 @@ const Room = () => {
             <p>
               Escape to comfort in our Cozy Haven Room, a snug retreat designed for intimate relaxation.
             </p>
-            <h5>Starting from <span>Rs. 1000/night</span></h5>
+            <h5>Starting from <span>Rs. 2000/night</span></h5>
             <a href="https://wa.link/at5ion">
               <button className="btn">BOOK NOW</button>
             </a>
@@ -42,7 +42,7 @@ const Room = () => {
           viewport={{ once: true}}
          className="room__card" data-sr-id="11">
           <div className="room__card__image">
-            <img src={Large} alt="room"/>
+            <img src={room1} alt="room"/>
             <div className="room__card__icons">
               <span><i className="ri-heart-fill"></i></span>
               <span><i className="ri-paint-fill"></i></span>
@@ -54,7 +54,7 @@ const Room = () => {
             <p>
               Indulge in luxury and ample space in our Spacious Serenity Suite, where tranquility meets roomy elegance.
             </p>
-            <h5>Starting from <span>Rs. 1500/night</span></h5>
+            <h5>Starting from <span>Rs. 2500/night</span></h5>
             <a href="https://wa.link/at5ion">
               <button className="btn">BOOK NOW</button>
             </a>

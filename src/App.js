@@ -20,7 +20,7 @@ function App() {
       <Banner />
       <Gallery />
       <Contact />
-      <Map />
+      
       <Footer />
       <BackToTopButton />
     </div>

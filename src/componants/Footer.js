@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="section__container footer__container">
         <div className="footer__col">
           <div className="logo">
-            <a href="#home"> <h4>Kingsukh Guest House</h4></a>
+            <a href="#home"> <h4>WhiteFlower Guest House</h4></a>
           </div>
           <p className="section__description">
             Discover a world of comfort, luxury, and adventure as you explore
@@ -44,7 +44,7 @@ const Footer = () => {
         <div className="footer__col">
           <h4>CONTACT US</h4>
           <ul className="footer__links">
-            <li><a href="https://maps.app.goo.gl/7wYUEB4tvR7NMHbcA">Address: Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156</a></li>
+            <li><a href="https://maps.app.goo.gl/7wYUEB4tvR7NMHbcA">Address: Temple, near, Ghorakhal Road, Bhowali, Ghorakhal, Uttarakhand 263132</a></li>
             <li><a href="mailto: kkghosh0099@gmail.com">kkghosh0099@gmail.com</a></li>
             <li><a href="tel:+919007062180">+91 9007062180 </a></li>
           </ul>
@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer__bar">
-        Copyright © 2024 Kingsukh Guest House. All rights reserved.
+        Copyright © 2024 WhiteFlower Guest House. All rights reserved.
       </div>
     </footer>
     </div>
