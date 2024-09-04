@@ -8,7 +8,6 @@ import Contact from './componants/Contact';
 import BackToTopButton from './componants/BacktoTop';
 import Footer from './componants/Footer';
 import Banner from './componants/Banner';
-import Map from './componants/Map';
 
 function App() {
   return (
