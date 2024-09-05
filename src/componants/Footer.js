@@ -18,7 +18,7 @@ const Footer = () => {
             our curated selection of hotels, making every moment of your getaway
             truly extraordinary.
           </p>
-          <a href="https://wa.link/at5ion">
+          <a href="https://api.whatsapp.com/send?phone=919329717846">
             <button className="btn">BOOK NOW</button>
           </a>
         </div>
@@ -44,13 +44,13 @@ const Footer = () => {
         <div className="footer__col">
           <h4>CONTACT US</h4>
           <ul className="footer__links">
-            <li><a href="https://maps.app.goo.gl/7wYUEB4tvR7NMHbcA">Address: Temple, near, Ghorakhal Road, Bhowali, Ghorakhal, Uttarakhand 263132</a></li>
-            <li><a href="mailto: kkghosh0099@gmail.com">kkghosh0099@gmail.com</a></li>
-            <li><a href="tel:+919007062180">+91 9007062180 </a></li>
+            <li><a href="https://maps.app.goo.gl/7wYUEB4tvR7NMHbcA">Address: xyz</a></li>
+            <li><a href="mailto: xyz@gmail.com">xyz@gmail.com</a></li>
+            <li><a href="tel:+919329717846">+91 9329717846 </a></li>
           </ul>
           <div className="footer__socials">
             <a href="#"><img src={facebook} alt="facebook"/></a>
-            <a href="https://www.instagram.com/kingsukhguesthouse/" target="_blank"><img src={insta} alt="instagram"/></a>
+            <a href="#"><img src={insta} alt="instagram"/></a>
             <a href="#"><img src={youtube} alt="youtube"/></a>
             <a href="#"><img src={twitter} alt="twitter"/></a>
           </div>
