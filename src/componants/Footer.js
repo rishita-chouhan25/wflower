@@ -44,7 +44,7 @@ const Footer = () => {
         <div className="footer__col">
           <h4>CONTACT US</h4>
           <ul className="footer__links">
-            <li><a href="https://maps.app.goo.gl/7wYUEB4tvR7NMHbcA">Address: xyz</a></li>
+            <li><a href="#">Address: xyz</a></li>
             <li><a href="mailto: xyz@gmail.com">xyz@gmail.com</a></li>
             <li><a href="tel:+919329717846">+91 9329717846 </a></li>
           </ul>
