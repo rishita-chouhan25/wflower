@@ -29,7 +29,7 @@ const About = () => {
           whileInView={"show"}
           viewport={{ once: true }} className="section__description" data-sr-id="7">
             Embark on a tranquil journey at our whiteFlower Guest House, enveloped by the scenic allure of Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti Dam, Maithon Dam, and the captivating Panchat Dam. Revel in the embrace of comfort, relish delightful meals, and unwind in our verdant garden oasis. Your ideal retreat beckons, promising a harmonious blend of nature's beauty and heartfelt hospitality. Explore the hidden gems of Purulia, creating memories that linger long after your stay. <br />
-          </motion.p><h4><a href="https://maps.app.goo.gl/7wYUEB4tvR7NMHbcA">Address: xyzz....</a></h4>
+          </motion.p><h4><a href="#">Address: xyzz....</a></h4>
           <h4><a href="tel:+919329717846"> Contact us: +91 9329717846 </a></h4>
           <br />
           <p></p>
