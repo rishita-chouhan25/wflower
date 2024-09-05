@@ -19,25 +19,25 @@ const Contact = () => {
                   <ul className="info">
                       <li>
                           <span><img src={Location}/></span>
-                          <span>Temple, near, Ghorakhal Road, <br/>
-                          Bhowali, Ghorakhal,<br/>
-                          Uttarakhand 263132</span>
+                          <span>xyz <br/>
+                          xyz,<br/>
+                          xyz</span>
                           
                       </li>
                       <li>
                           <span><img src={Mail}/></span>
-                          <span><a href="mailto: kkghosh0099@gmail.com">kkghosh0099@gmail.com</a></span>
+                          <span><a href="mailto: xyz@gmail.com">xyz@gmail.com</a></span>
                       </li>
                       <li>
                           <span><img src={Call}/></span>
-                          <span><a href="tel:+919007062180"> +91 9007062180 </a></span>
+                          <span><a href="tel:+919329717846"> +91 9329717846 </a></span>
                       </li>
 
                   </ul>
               </div>
               <ul className="sci">
                   <li><a href="#"><img src={Facebook}/></a></li>
-                  <li><a href="https://www.instagram.com/kingsukhguesthouse/" target="_blank"><img src={Insta}/></a></li>
+                  <li><a href="#"><img src={Insta}/></a></li>
                   <li><a href="#"><img src={Twitter}/></a></li>
                   <li><a href="#"><img src={Linkdln}/></a></li>
                   
