@@ -17,7 +17,7 @@ const Home = () => {
                 <nav>
                     <div className="nav__bar">
                         <div className="logo">
-                            <a href="https://wa.link/at5ion">
+                            <a href="https://api.whatsapp.com/send?phone=919329717846">
                                 <span style={{ color: 'aliceblue' }}>
                                     WhiteFlower <br /> Guest House
                                 </span>
@@ -51,7 +51,7 @@ const Home = () => {
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <a href="https://wa.link/at5ion">
+                    <a href="https://api.whatsapp.com/send?phone=919329717846">
                         <button className="btn nav__btn">BOOK NOW</button>
                     </a>
                 </nav>
@@ -72,7 +72,7 @@ const Home = () => {
             <section className="section__container booking__container">
                 <div className="booking__form">
                     <div className="input__group input__btn">
-                        <a href="https://wa.link/at5ion">
+                        <a href="https://api.whatsapp.com/send?phone=919329717846">
                             <button className="btn">BOOK NOW</button>
                         </a>
                     </div>
