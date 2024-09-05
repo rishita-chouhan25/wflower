@@ -30,7 +30,7 @@ const Room = () => {
               Escape to comfort in our Cozy Haven Room, a snug retreat designed for intimate relaxation.
             </p>
             <h5>Starting from <span>Rs. 2000/night</span></h5>
-            <a href="https://wa.link/at5ion">
+            <a href="https://api.whatsapp.com/send?phone=919329717846">
               <button className="btn">BOOK NOW</button>
             </a>
           </div>
@@ -55,7 +55,7 @@ const Room = () => {
               Indulge in luxury and ample space in our Spacious Serenity Suite, where tranquility meets roomy elegance.
             </p>
             <h5>Starting from <span>Rs. 2500/night</span></h5>
-            <a href="https://wa.link/at5ion">
+            <a href="https://api.whatsapp.com/send?phone=919329717846">
               <button className="btn">BOOK NOW</button>
             </a>
           </div>
